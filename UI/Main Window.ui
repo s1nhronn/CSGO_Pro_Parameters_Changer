@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>541</width>
+    <height>453</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>541</width>
+    <height>453</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CSGO Pro Parameter Changer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="Pro">
+    <normaloff>../../Downloads/729528.ico</normaloff>../../Downloads/729528.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>521</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_modified_weapons">
+       <property name="text">
+        <string>Modified weapons</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_1">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="verticalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>517</width>
+          <height>289</height>
+         </rect>
+        </property>
+        <widget class="QTableWidget" name="weapons_list">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>517</width>
+           <height>291</height>
+          </rect>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOn</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOn</enum>
+         </property>
+         <attribute name="horizontalHeaderCascadingSectionResizes">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>0</number>
+         </attribute>
+         <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderVisible">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderCascadingSectionResizes">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>Primary reserve ammo max</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recovery time crouch</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recovery time crouch final</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recovery time stand</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recovery time stand final</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy jump initial</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy jump</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Max player speed</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Is full auto</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>In game price</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Armor ratio</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Damage</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Range</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Bullets</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Cycletime</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Spread</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy crouch</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy stand</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy land</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy ladder</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy fire</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy move</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil angle</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil angle variance</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil magnitude</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil magnitude variance</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil seed</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Primary clip size</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy crouch alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy fire alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy jump alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy ladder alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy land alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy move alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Inaccuracy stand alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Max player speed alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil angle alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil angle variance alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil magnitude alt</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Recoil magnitude variance alt</string>
+          </property>
+         </column>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_weapons_options">
+       <property name="text">
+        <string>Weapons options</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="build_button">
+         <property name="text">
+          <string>BUILD</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="return_button">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Return CS:GO to normal settings</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="add_weapon_button">
+         <property name="text">
+          <string>Add weapon</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="delete_button">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Delete weapon</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="rename_button">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Rename weapon</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="reset_weapon_button">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Reset weapon parameters</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

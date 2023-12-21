@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Weapon Selection</string>
+  </property>
+  <widget class="QListWidget" name="weapons_list">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>400</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>P2000</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/p2000.png</normaloff>../icons/p2000.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USP-S</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/USP-S.png</normaloff>../icons/USP-S.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Glock-18</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Glock-18.png</normaloff>../icons/Glock-18.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Dual Berettas</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Dual Berettas.png</normaloff>../icons/Dual Berettas.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P250</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/P250.png</normaloff>../icons/P250.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Five-SeveN</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Five-SeveN.png</normaloff>../icons/Five-SeveN.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tec-9</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Tec-9.png</normaloff>../icons/Tec-9.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CZ75-Auto</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/CZ75-Auto.png</normaloff>../icons/CZ75-Auto.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Desert Eagle</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Desert Eagle.png</normaloff>../icons/Desert Eagle.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Revolver R8</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Revolver R8.png</normaloff>../icons/Revolver R8.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Nova</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Nova.png</normaloff>../icons/Nova.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>XM1014</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/XM1014.png</normaloff>../icons/XM1014.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MAG-7</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/MAG-7.png</normaloff>../icons/MAG-7.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Sawed-Off</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Sawed-Off.png</normaloff>../icons/Sawed-Off.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>M249</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/M249.png</normaloff>../icons/M249.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Negev</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Negev.png</normaloff>../icons/Negev.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MAC-10</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/MAC-10.png</normaloff>../icons/MAC-10.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MP9</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/MP9.png</normaloff>../icons/MP9.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MP7</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/MP7.png</normaloff>../icons/MP7.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MP5-SD</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/MP5-SD.png</normaloff>../icons/MP5-SD.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UMP-45</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/UMP-45.png</normaloff>../icons/UMP-45.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P90</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/P90.png</normaloff>../icons/P90.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PP-19 Bison</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/PP-19 Bison.png</normaloff>../icons/PP-19 Bison.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>FAMAS</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/FAMAS.png</normaloff>../icons/FAMAS.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Automatic &quot;Galil&quot;</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/Automatic Galil.png</normaloff>../icons/Automatic Galil.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>M4A1-S</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/M4A1-S.png</normaloff>../icons/M4A1-S.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AK-47</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/AK-47.png</normaloff>../icons/AK-47.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>M4A4</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/M4A4.png</normaloff>../icons/M4A4.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AUG</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/AUG.png</normaloff>../icons/AUG.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SG 553</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/SG 553.png</normaloff>../icons/SG 553.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SSG 08</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/SSG 08.png</normaloff>../icons/SSG 08.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AWP</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/AWP.png</normaloff>../icons/AWP.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SCAR-20</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/SCAR-20.png</normaloff>../icons/SCAR-20.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>G3SG1</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../icons/G3SG1.png</normaloff>../icons/G3SG1.png</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose a weapon:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="choose_weapon">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok_button">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>275</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ОК</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
